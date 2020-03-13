@@ -1,0 +1,17 @@
+{
+    "name": "docs",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+      },
+    "dependencies": {
+        "@mdx-js/mdx": "^1.5.7",
+        "@mdx-js/tag": "^0.20.3",
+        "next": "^9.3.0",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0"
+    }
+}

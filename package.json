@@ -1,0 +1,22 @@
+{
+  "name": "yarn-workspaces-typescript",
+  "version": "1.0.0",
+  "description": "Yarn Workspaces and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolechung/Yarn_workspaces_typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolechung/Yarn_workspaces_typescript/issues"
+  },
+  "homepage": "https://github.com/nicolechung/Yarn_workspaces_typescript#readme",
+  "private": true,
+  "workspaces": ["components", "docs"]
+}
