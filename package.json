@@ -4,7 +4,8 @@
   "description": "Yarn Workspaces and Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "yarn workspaces run clean"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   },
   "homepage": "https://github.com/nicolechung/Yarn_workspaces_typescript#readme",
   "private": true,
-  "workspaces": ["components", "docs"]
+  "workspaces": [
+    "components",
+    "docs"
+  ]
 }
