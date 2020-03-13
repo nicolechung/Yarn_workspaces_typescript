@@ -2,14 +2,27 @@
   "name": "components",
   "version": "1.0.0",
   "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "dependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
+  "scripts": {
+    "clean": "rm -rf dist && rm -rf node_modules",
+    "lint": "eslint **/*.{ts,tsx} --quiet",
+    "test": "jest --colors",
+    "test:watch": "jest --watch --colors",
+    "type-check": "yarn tsc -p ./tsconfig.json",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
   "devDependencies": {
-    "@rollup/plugin-typescript": "^4.0.0",
     "@rollup/plugin-commonjs": "11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-typescript": "^4.0.0",
     "rollup": "^2.0.6",
     "typescript": "^3.8.3"
   }
+
 }
