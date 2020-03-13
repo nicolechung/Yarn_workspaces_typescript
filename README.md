@@ -2,6 +2,20 @@
 
 Using yarn workspaces with typescript is more straightforward than it looks, I made this example as a reference.
 
+## Install and run
+
+```
+yarn
+cd docs
+yarn dev
+```
+
+## Delete all node modules
+
+```
+yarn clean
+```
+
 ## Typescript: Project References
 
 You might have heard of Typescript's new [Project References](https://www.typescriptlang.org/docs/handbook/project-references.html#what-is-a-project-reference). Seriously, don't use this. Yarn workspaces will take care of the linking.

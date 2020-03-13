@@ -10,12 +10,10 @@
     "postinstall": "yarn workspace @fakescope/components build"
   },
   "dependencies": {
-    "@mdx-js/mdx": "^1.5.7",
-    "@mdx-js/tag": "^0.20.3",
+    "@fakescope/components": "0.0.1",
     "next": "^9.3.0",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "@fakescope/components": "0.0.1"
+    "react-dom": "^16.13.0"
   },
   "devDependencies": {
     "@types/node": "^13.9.1",
