@@ -49,11 +49,11 @@ Example
 
 ```
 - root -> @fakescope
--- components -> fakescope/components
--- docs -> fakescope/docs
+-- components -> @fakescope/components
+-- docs -> @fakescope/docs
 ```
 
-**However** for the workspace names in the root `package.json` -- those should be the folder names.
+**However** for the workspace names in the root `package.json` -- those should be the **folder names**.
 
 ```
 "workspaces": [
