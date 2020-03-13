@@ -1,2 +1,3 @@
 # Yarn_workspaces_typescript
-Yarn Workspaces and Typescript 
+
+Yarn Workspaces and Typescript

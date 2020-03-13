@@ -1,3 +1,5 @@
-import React from 'react'
+import React from "react";
 
-export const Button:React.FunctionComponent = props => <button {...props}>{props.children}</button>
+export const Button: React.FunctionComponent = props => (
+  <button {...props}>{props.children}</button>
+);
