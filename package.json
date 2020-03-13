@@ -1,18 +1,21 @@
 {
-  "name": "yarn-workspaces-typescript",
+  "name": "@fakescope/design-system",
   "version": "1.0.0",
   "description": "Yarn Workspaces and Typescript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "yarn workspaces run clean"
+    "clean": "yarn workspaces run clean && rm -rf node_modules"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nicolechung/Yarn_workspaces_typescript.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "yarn",
+    "typescript"
+  ],
+  "author": "Nicole Chung",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nicolechung/Yarn_workspaces_typescript/issues"
