@@ -2,6 +2,21 @@
 
 Using yarn workspaces with typescript is more straightforward than it looks, I made this example as a reference.
 
+### Install and run the docs
+
+```
+yarn
+cd docs
+yarn dev
+```
+
+### Run test
+
+```
+cd <root folder>
+yarn test
+```
+
 ## Typescript: Project References
 
 You might have heard of Typescript's new [Project References](https://www.typescriptlang.org/docs/handbook/project-references.html#what-is-a-project-reference). Seriously, don't use this. Yarn workspaces will take care of the linking.
@@ -59,7 +74,7 @@ Example
 "workspaces": [
     "components",
     "docs"
-  ]
+]
 ```
 
 ## 🔗Linking and a postinstall hook
