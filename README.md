@@ -39,7 +39,7 @@ How yarn workspaces work: you should only have to run `yarn` or `yarn install` i
 ---- node_modules (for docs and anything added to nohoist)
 ```
 
-## npm package @scopes
+## ✨npm package @scopes
 
 Each package.json in the workspace should have a name with the owner's @scope. In this example I named it `@fakescope` since this is a fake project.
 
@@ -62,7 +62,7 @@ Example
   ]
 ```
 
-## Linking and a postinstall hook
+## 🔗Linking and a postinstall hook
 
 To use the `components` in `docs`, the package **name** of components should be used in docs:
 

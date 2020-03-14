@@ -7,19 +7,26 @@
     "build": "next build",
     "start": "next start",
     "clean": "rm -rf node_modules",
-    "postinstall": "yarn workspace @fakescope/components build"
+    "postinstall": "yarn workspace @fakescope/components build",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "start-server-and-test dev http://localhost:3000 cypress:run"
   },
   "dependencies": {
+    "@fakescope/components": "0.0.1",
     "@mdx-js/mdx": "^1.5.7",
     "@mdx-js/tag": "^0.20.3",
     "next": "^9.3.0",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "@fakescope/components": "0.0.1"
+    "react-dom": "^16.13.0"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^6.0.0",
     "@types/node": "^13.9.1",
     "@types/react": "^16.9.23",
+    "@types/testing-library__cypress": "^5.0.3",
+    "cypress": "^4.1.0",
+    "start-server-and-test": "^1.10.10",
     "typescript": "^3.8.3"
   }
 }
