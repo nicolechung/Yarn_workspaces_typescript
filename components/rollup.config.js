@@ -8,7 +8,8 @@ export default {
   input: "src/index.tsx",
   output: {
     dir: "dist",
-    format: "cjs"
+    format: "cjs",
+    sourcemap: true
   },
   plugins: [
     resolve({
@@ -25,7 +26,6 @@ export default {
       }
     })
   ],
-
   // indicate which modules should be treated as external
-  external: ["react", "react-dom"]
+  external: ["react"]
 };

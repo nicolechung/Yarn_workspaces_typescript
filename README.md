@@ -2,6 +2,21 @@
 
 Using yarn workspaces with typescript is more straightforward than it looks, I made this example as a reference.
 
+### Install and run the docs
+
+```
+yarn
+cd docs
+yarn dev
+```
+
+### Run test
+
+```
+cd <root folder>
+yarn test
+```
+
 ## Typescript: Project References
 
 You might have heard of Typescript's new [Project References](https://www.typescriptlang.org/docs/handbook/project-references.html#what-is-a-project-reference). Seriously, don't use this. Yarn workspaces will take care of the linking.
@@ -39,7 +54,7 @@ How yarn workspaces work: you should only have to run `yarn` or `yarn install` i
 ---- node_modules (for docs and anything added to nohoist)
 ```
 
-## npm package @scopes
+## ✨npm package @scopes
 
 Each package.json in the workspace should have a name with the owner's @scope. In this example I named it `@fakescope` since this is a fake project.
 
@@ -59,10 +74,10 @@ Example
 "workspaces": [
     "components",
     "docs"
-  ]
+]
 ```
 
-## Linking and a postinstall hook
+## 🔗Linking and a postinstall hook
 
 To use the `components` in `docs`, the package **name** of components should be used in docs:
 

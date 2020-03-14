@@ -4,7 +4,7 @@ import { Button } from "@fakescope/components";
 export default function Index() {
   return (
     <div>
-      <p>Hello Next.js</p>
+      <p>Hello World from docs!</p>
       <Button>A button from components</Button>
     </div>
   );
