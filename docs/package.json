@@ -27,6 +27,6 @@
     "@types/testing-library__cypress": "5.0.3",
     "cypress": "4.1.0",
     "start-server-and-test": "1.10.10",
-    "typescript": "3.8.3"
+    "typescript": "3.9.10"
   }
 }
