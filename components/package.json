@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "dependencies": {
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "scripts": {
     "clean": "rm -rf dist && rm -rf node_modules",
