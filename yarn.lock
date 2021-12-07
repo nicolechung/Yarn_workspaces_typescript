@@ -1012,7 +1012,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@mdx-js/mdx@^1.5.7":
+"@mdx-js/mdx@1.5.7":
   version "1.5.7"
   resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.5.7.tgz#9167273da888ef4c545a5601bc5da989dfccb3a7"
   integrity sha512-db1E3P0HCgSUX768Y/jIcr5h41VR5AsvaOmPTydltNM4R8Uh863IqDvnkpa7l829bY/tp6wrMBWM2NH0oLuxHw==
@@ -1036,7 +1036,7 @@
     unist-builder "2.0.3"
     unist-util-visit "2.0.2"
 
-"@mdx-js/tag@^0.20.3":
+"@mdx-js/tag@0.20.3":
   version "0.20.3"
   resolved "https://registry.yarnpkg.com/@mdx-js/tag/-/tag-0.20.3.tgz#9e2306040b6469248c45a5f5baf44d0014db0493"
   integrity sha512-Co3gUFmNDv9z2LjuvLTpTj2NaOSHFxuoZjohcG0YK/KfECO+Ns9idzThMYjfEDe1vAf4c824rqlBYseedJdFNw==
@@ -1062,7 +1062,7 @@
     magic-string "^0.25.2"
     resolve "^1.11.0"
 
-"@rollup/plugin-node-resolve@^7.1.1":
+"@rollup/plugin-node-resolve@7.1.1":
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-7.1.1.tgz#8c6e59c4b28baf9d223028d0e450e06a485bb2b7"
   integrity sha512-14ddhD7TnemeHE97a4rLOhobfYvUVcaYuqTnL8Ti7Jxi9V9Jr5LY7Gko4HZ5k4h4vqQM0gBQt6tsp9xXW94WPA==
@@ -1073,7 +1073,7 @@
     is-module "^1.0.0"
     resolve "^1.14.2"
 
-"@rollup/plugin-typescript@^4.0.0":
+"@rollup/plugin-typescript@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-typescript/-/plugin-typescript-4.0.0.tgz#7a4f7b2844d28669e58c03c880f6ed0d6e926685"
   integrity sha512-qA3r4WlR8JnTm+VdBzvQSIkfXt802keGxXuE4SAjUjRMKK3nMXTUCvOGSzFkav2qf0QiGv6yijfbjuf+bhwmZQ==
@@ -1095,7 +1095,7 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@testing-library/cypress@^6.0.0":
+"@testing-library/cypress@6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@testing-library/cypress/-/cypress-6.0.0.tgz#935f7716e0e495f02fd753a42621e4d350097dce"
   integrity sha512-vWPQtPsIDk5STOH2XdJbJoYq9gxOSAItP0ail+MlylK230zNkf3ODKd6eqWnDdruuqrhTF3CyqvPNMA8Xks/UQ==
@@ -1145,7 +1145,7 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/node@*", "@types/node@^13.9.1":
+"@types/node@*", "@types/node@13.9.1":
   version "13.9.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.1.tgz#96f606f8cd67fb018847d9b61e93997dabdefc72"
   integrity sha512-E6M6N0blf/jiZx8Q3nb0vNaswQeEyn0XlupO+xN6DtJ6r6IT4nXrTry7zhIfYvFCl3/8Cu6WIysmUBKiqV0bqQ==
@@ -1155,7 +1155,7 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
-"@types/react@^16.9.23":
+"@types/react@16.9.23":
   version "16.9.23"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.23.tgz#1a66c6d468ba11a8943ad958a8cb3e737568271c"
   integrity sha512-SsGVT4E7L2wLN3tPYLiF20hmZTPGuzaayVunfgXzUn1x4uHVsKH6QDJQ/TdpHqwsTLd4CwrmQ2vOgxN7gE24gw==
@@ -1175,7 +1175,7 @@
   resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
   integrity sha512-7EJYyKTL7tFR8+gDbB6Wwz/arpGa0Mywk1TJbNzKzHtzbwVmY4HR9WqS5VV7dsBUKQmPNr192jHr/VpBluj/hg==
 
-"@types/testing-library__cypress@^5.0.3":
+"@types/testing-library__cypress@5.0.3", "@types/testing-library__cypress@^5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@types/testing-library__cypress/-/testing-library__cypress-5.0.3.tgz#94969b7c1eea96e09d8e023a1d225590fa75a1fe"
   integrity sha512-efMwaVnsWEBDz0Ikm84Kh/oiUxMfz5LQtWx/Y6s2Bj0KkQ6+569/101X3Gz2bJy+otaXWPzOUOwDeAfzOJWoeQ==
@@ -2651,7 +2651,7 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
-cypress@*, cypress@^4.1.0:
+cypress@*, cypress@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/cypress/-/cypress-4.1.0.tgz#295f115d2e8a08fff2760ab49d94d876f5877aee"
   integrity sha512-FFV8pS9iuriSX4M9rna6awJUhiqozZD1D5z5BprCUJoho1ctbcgpkEUIUnqxli2OwjQqVz07egO+iqoGL+tw7g==
@@ -4958,7 +4958,7 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^9.3.0:
+next@9.3.0:
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/next/-/next-9.3.0.tgz#7be6ebbddd154214c523fb9e7b88c8e88d553378"
   integrity sha512-dGuL9xufFqebF0CtbUrOaLXurEjLoqv8Si9U5Yi2ovzsfq2RPjQs8UmgOFYYRjGM4jhJOFCUK0bxLwvSb4uzBg==
@@ -6148,7 +6148,7 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-dom@^16.13.0:
+react-dom@16.13.0, react-dom@^16.13.0:
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.0.tgz#cdde54b48eb9e8a0ca1b3dc9943d9bb409b81866"
   integrity sha512-y09d2c4cG220DzdlFkPTnVvGTszVvNpC73v+AaLGLHbkpy3SSgvYq8x0rNwPJ/Rk/CicTNgk0hbHNw1gMEZAXg==
@@ -6173,7 +6173,7 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.0.tgz#0f37c3613c34fe6b37cd7f763a0d6293ab15c527"
   integrity sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
 
-react@^16.13.0:
+react@16.13.0, react@^16.13.0:
   version "16.13.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"
   integrity sha512-TSavZz2iSLkq5/oiE7gnFzmURKZMltmi193rm5HEoUDAXpzT9Kzw6oNZnGoai/4+fUnm7FqS5dwgUL34TujcWQ==
@@ -6531,7 +6531,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rollup@^2.0.6:
+rollup@2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.0.6.tgz#865d6bb15a28cff3429ea1dc57236013661cb9de"
   integrity sha512-P42IlI6a/bxh52ed8hEXXe44LcHfep2f26OZybMJPN1TTQftibvQEl3CWeOmJrzqGbFxOA000QXDWO9WJaOQpA==
@@ -6881,7 +6881,7 @@ ssri@^6.0.1:
   dependencies:
     figgy-pudding "^3.5.1"
 
-start-server-and-test@^1.10.10:
+start-server-and-test@1.10.10:
   version "1.10.10"
   resolved "https://registry.yarnpkg.com/start-server-and-test/-/start-server-and-test-1.10.10.tgz#ad3dd8d389f9487214b617e884f85cca74244549"
   integrity sha512-LCnngrqi4Ex7FDJwpzfByXK8SCAcITYJB5yj/K3k2onaBHcH6RMFf6q3Kz8iM7CLuJ3DZlzU76W6Ixwpt+n/sQ==
@@ -7340,7 +7340,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.8.3:
+typescript@3.8.3:
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
   integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
