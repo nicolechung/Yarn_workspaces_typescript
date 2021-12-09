@@ -18,7 +18,7 @@
     "start": "rollup -c -w"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "11.1.0",
+    "@rollup/plugin-commonjs": "21.0.1",
     "@rollup/plugin-node-resolve": "13.0.6",
     "@rollup/plugin-typescript": "4.1.2",
     "@types/react": "^17.0.37",
