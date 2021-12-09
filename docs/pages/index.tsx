@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <div>
       <p>Hello World from docs!</p>
-      <Button>A button from components yay!</Button>
+      <Button>A button from components</Button>
     </div>
   );
 }
