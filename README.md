@@ -90,7 +90,7 @@ To use the `components` in `docs`, the package **name** of components should be 
 ```
 "dependencies": {
     other dependencies...
-    "@fakescope/components": "0.0.1"
+    "@fakescope/components": "*"
 },
 ```
 
