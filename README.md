@@ -113,3 +113,4 @@ This is because in `components/package.json` we have declared a main file:
 ```
 
 One way to do this (easiest) is to have a postinstall hook in `docs` since docs is depending on a build of `components`.
+

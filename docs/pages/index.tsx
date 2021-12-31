@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <div>
       <p>Hello World from docs!</p>
-      <Button>A button from components</Button>
+      <Button>A button from @fakescope/components</Button>
     </div>
   );
 }
