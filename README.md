@@ -10,6 +10,12 @@ cd docs
 yarn dev
 ```
 
+## Delete all node modules
+
+```
+yarn clean
+```
+
 ### Run test
 
 ```
