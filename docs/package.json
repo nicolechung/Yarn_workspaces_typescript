@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@testing-library/cypress": "8.0.2",
-    "@types/node": "16.11.19",
+    "@types/node": "16.18.113",
     "@types/react": "17.0.38",
     "@types/testing-library__cypress": "5.0.9",
     "cypress": "9.2.0",
