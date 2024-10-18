@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@fakescope/components": "*",
-    "@mdx-js/mdx": "1.6.22",
+    "@mdx-js/mdx": "3.1.0",
     "@mdx-js/tag": "0.20.3",
     "next": "12.0.7",
     "react": "17.0.2",
