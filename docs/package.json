@@ -24,7 +24,7 @@
     "@testing-library/cypress": "8.0.2",
     "@types/node": "16.11.19",
     "@types/react": "17.0.38",
-    "@types/testing-library__cypress": "5.0.9",
+    "@types/testing-library__cypress": "5.0.13",
     "cypress": "9.2.0",
     "start-server-and-test": "1.14.0",
     "typescript": "4.5.4"
